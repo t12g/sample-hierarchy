@@ -1,1 +1,1 @@
-# sample-hierarchy
+Sample organization -> folder -> project hierarchy.

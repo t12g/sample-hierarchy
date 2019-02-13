@@ -1,0 +1,12 @@
+apiVersion: bespin.dev/v1
+kind: OrganizationPolicy
+metadata:
+  name: sample-folder-org-policy
+spec:
+  constraints:
+  - constraint: constraints/iam.disableServiceAccountCreation
+    booleanPolicy:
+      enforced: true
+  - constraint: constraints/compute.disableSerialPortAccess
+    booleanPolicy:
+      enforced: true
